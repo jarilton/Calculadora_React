@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'RobotoMono';
+  src: url(./fonts/RobotoMono-Thin.ttf);
+}
+
+* {
+  font-family: 'RobotoMono', monospace;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(67, 67, 67)); /*pretty gradientts - pesquisar no google que vai ver o efeito*/
+}
